@@ -1,0 +1,2 @@
+2021-05-17 10:38:05,179 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_2行流程接口结果成功--------------
+2021-05-17 10:38:05,181 - D:\pyworkspace\autodemo\demo\demo1.py[line:79] - INFO: 流程 --------- 用例用例1测试不通过，流程类接口终止测试~~~~~

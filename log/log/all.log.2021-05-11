@@ -1,0 +1,84 @@
+2021-05-10 09:38:20,884 - D:/pyworkspace/autodemo/log/log.py[line:67] - DEBUG: debug------------
+2021-05-10 09:38:20,884 - D:/pyworkspace/autodemo/log/log.py[line:68] - INFO: info-----------
+2021-05-10 09:38:20,884 - D:/pyworkspace/autodemo/log/log.py[line:69] - WARNING: 这是警告~~~~~~~~~~~~~
+2021-05-10 09:38:20,884 - D:/pyworkspace/autodemo/log/log.py[line:70] - ERROR: 报错啦啦啦啦啦啦啦
+2021-05-10 09:38:20,884 - D:/pyworkspace/autodemo/log/log.py[line:71] - CRITICAL: 严重的鹅鹅鹅饿鹅鹅鹅鹅鹅鹅鹅鹅鹅鹅鹅鹅饿
+2021-05-10 15:27:32,884 - D:\pyworkspace\autodemo\util\write_excel.py[line:64] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 15:27:32,884 - D:\pyworkspace\autodemo\util\write_excel.py[line:64] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 15:35:15,288 - D:\pyworkspace\autodemo\util\write_excel.py[line:66] - INFO: -----------write_流程接口结果失败------------
+2021-05-10 15:35:15,288 - D:\pyworkspace\autodemo\util\write_excel.py[line:66] - INFO: -----------write_流程接口结果失败------------
+2021-05-10 15:35:15,288 - D:\pyworkspace\autodemo\util\write_excel.py[line:66] - INFO: -----------write_流程接口结果失败------------
+2021-05-10 15:35:15,288 - D:\pyworkspace\autodemo\util\write_excel.py[line:67] - ERROR: [Errno 13] Permission denied: '../report/reportdata/testreport.xlsx'
+2021-05-10 15:35:15,288 - D:\pyworkspace\autodemo\util\write_excel.py[line:67] - ERROR: [Errno 13] Permission denied: '../report/reportdata/testreport.xlsx'
+2021-05-10 15:35:15,288 - D:\pyworkspace\autodemo\util\write_excel.py[line:67] - ERROR: [Errno 13] Permission denied: '../report/reportdata/testreport.xlsx'
+2021-05-10 15:36:28,607 - D:\pyworkspace\autodemo\util\write_excel.py[line:64] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 15:36:28,607 - D:\pyworkspace\autodemo\util\write_excel.py[line:64] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 15:36:28,607 - D:\pyworkspace\autodemo\util\write_excel.py[line:64] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 15:36:28,607 - D:\pyworkspace\autodemo\demo\demo1.py[line:120] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 15:36:28,607 - D:\pyworkspace\autodemo\demo\demo1.py[line:120] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 15:36:28,607 - D:\pyworkspace\autodemo\demo\demo1.py[line:120] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 15:37:11,251 - D:\pyworkspace\autodemo\util\write_excel.py[line:64] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 15:37:11,251 - D:\pyworkspace\autodemo\util\write_excel.py[line:64] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 15:37:11,251 - D:\pyworkspace\autodemo\util\write_excel.py[line:64] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 15:37:11,251 - D:\pyworkspace\autodemo\demo\demo1.py[line:120] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 15:37:11,251 - D:\pyworkspace\autodemo\demo\demo1.py[line:120] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 15:37:11,251 - D:\pyworkspace\autodemo\demo\demo1.py[line:120] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 15:37:50,144 - D:/pyworkspace/autodemo/log/my_log.py[line:46] - DEBUG: debug------------
+2021-05-10 15:37:50,145 - D:/pyworkspace/autodemo/log/my_log.py[line:47] - INFO: info-----------
+2021-05-10 15:37:50,145 - D:/pyworkspace/autodemo/log/my_log.py[line:48] - WARNING: 这是警告~~~~~~~~~~~~~
+2021-05-10 15:37:50,145 - D:/pyworkspace/autodemo/log/my_log.py[line:49] - ERROR: 报错啦啦啦啦啦啦啦
+2021-05-10 15:37:50,145 - D:/pyworkspace/autodemo/log/my_log.py[line:50] - CRITICAL: 严重的鹅鹅鹅饿鹅鹅鹅鹅鹅鹅鹅鹅鹅鹅鹅鹅饿
+2021-05-10 15:45:31,789 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 15:45:31,789 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 15:45:31,789 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 15:45:31,789 - D:\pyworkspace\autodemo\demo\demo1.py[line:120] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 15:45:31,789 - D:\pyworkspace\autodemo\demo\demo1.py[line:120] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 15:45:31,789 - D:\pyworkspace\autodemo\demo\demo1.py[line:120] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 16:00:59,806 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 16:00:59,806 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 16:00:59,806 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 16:00:59,807 - D:\pyworkspace\autodemo\demo\demo1.py[line:121] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 16:00:59,807 - D:\pyworkspace\autodemo\demo\demo1.py[line:121] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 16:00:59,807 - D:\pyworkspace\autodemo\demo\demo1.py[line:121] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 16:01:26,028 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 16:01:26,028 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 16:01:26,028 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 16:01:26,028 - D:\pyworkspace\autodemo\demo\demo1.py[line:122] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 16:01:26,028 - D:\pyworkspace\autodemo\demo\demo1.py[line:122] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 16:01:26,028 - D:\pyworkspace\autodemo\demo\demo1.py[line:122] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 16:02:27,972 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 16:02:27,972 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 16:02:27,972 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 16:02:27,972 - D:\pyworkspace\autodemo\demo\demo1.py[line:122] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 16:02:27,972 - D:\pyworkspace\autodemo\demo\demo1.py[line:122] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 16:02:27,972 - D:\pyworkspace\autodemo\demo\demo1.py[line:122] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 16:03:02,301 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 16:03:02,301 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 16:03:02,301 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 16:03:02,302 - D:\pyworkspace\autodemo\demo\demo1.py[line:122] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 16:03:02,302 - D:\pyworkspace\autodemo\demo\demo1.py[line:122] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 16:03:02,302 - D:\pyworkspace\autodemo\demo\demo1.py[line:122] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-10 16:26:55,634 - D:/pyworkspace/autodemo/log/my_log.py[line:47] - DEBUG: debug------------
+2021-05-10 16:26:55,634 - D:/pyworkspace/autodemo/log/my_log.py[line:48] - INFO: info-----------
+2021-05-10 16:26:55,634 - D:/pyworkspace/autodemo/log/my_log.py[line:49] - WARNING: 这是警告~~~~~~~~~~~~~
+2021-05-10 16:26:55,634 - D:/pyworkspace/autodemo/log/my_log.py[line:50] - ERROR: 报错啦啦啦啦啦啦啦
+2021-05-10 16:26:55,634 - D:/pyworkspace/autodemo/log/my_log.py[line:51] - CRITICAL: 严重的鹅鹅鹅饿鹅鹅鹅鹅鹅鹅鹅鹅鹅鹅鹅鹅饿
+2021-05-10 16:27:04,629 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_流程接口结果成功--------------
+2021-05-10 16:27:04,630 - D:\pyworkspace\autodemo\demo\demo1.py[line:121] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-11 13:36:33,365 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_2行流程接口结果成功--------------
+2021-05-11 13:36:33,366 - D:\pyworkspace\autodemo\demo\demo1.py[line:90] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-11 13:38:44,214 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_2行流程接口结果成功--------------
+2021-05-11 13:38:44,214 - D:\pyworkspace\autodemo\demo\demo1.py[line:90] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-11 13:39:47,262 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_2行流程接口结果成功--------------
+2021-05-11 13:39:47,262 - D:\pyworkspace\autodemo\demo\demo1.py[line:91] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-11 13:46:27,091 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_2行流程接口结果成功--------------
+2021-05-11 13:46:27,092 - D:\pyworkspace\autodemo\demo\demo1.py[line:91] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-11 13:46:37,484 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_2行流程接口结果成功--------------
+2021-05-11 13:46:37,484 - D:\pyworkspace\autodemo\demo\demo1.py[line:91] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-11 13:47:21,099 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_2行流程接口结果成功--------------
+2021-05-11 13:47:21,099 - D:\pyworkspace\autodemo\demo\demo1.py[line:91] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-11 13:47:37,195 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_2行流程接口结果成功--------------
+2021-05-11 13:47:37,195 - D:\pyworkspace\autodemo\demo\demo1.py[line:91] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-11 13:52:46,346 - D:\pyworkspace\autodemo\demo\demo1.py[line:92] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-11 13:55:49,846 - D:\pyworkspace\autodemo\demo\demo1.py[line:93] - INFO: 流程 --------- 用例用例1测试不通过
+2021-05-11 15:32:18,199 - D:\pyworkspace\autodemo\demo\demo1.py[line:88] - INFO: 流程 --------- 用例用例1测试通过
