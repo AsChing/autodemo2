@@ -32,7 +32,7 @@ class MyTestCase(unittest.TestCase):
                 else:
                     self.logger.info("实际返回code： ", res)
                     write_excel.WriteExcel(REPORT_FILE_PATH).write_somewhere(datai['row'], "FAIL", str(res))
-                    self.logger.warning("流程 --------- 用例{0}测试不通过，流程类接口终止测试~~~~~".format(datai["casenum"]))
+                    self.logger.error("流程 --------- 用例{0}测试不通过，流程类接口终止测试~~~~~".format(datai["casenum"]))
                     raise _ShouldStop
                 # self.assertEqual(res["code"], 200, "流程 --------- 用例{0}测试不通过,与预期返回code不一致".format(datai["casenum"]))
 
