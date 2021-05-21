@@ -8,20 +8,37 @@
 """
 from util import send_request
 import requests
+from autodemo.config.public_data import TOKEN
 
 val = {"isRead": "false", "url": "/yc/monitor/court/subrogation/list-count", "method":"get","headers":"","body":"","params":{"222":"bbb"}}
 # # params = {"token": "TOKEN"}
 # val["params"] = "TOKEN"
-token ="eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyODcxIiwic3ViIjoiMTU1MjMzIiwiaWF0IjoxNjIwMjg2MTEwLCJyb2xlcyI6WyLnrqHnkIblkZjnlKjmiLciXSwiYXV0aG9yaXRpZXMiOltdLCJob3N0Ijoid3d3LnljemNqay5jb206ODAiLCJ1dWlkIjoiNmYwOTMwZDYtYWI5Yi00NjU3LWFmNmUtZjJkN2MwMDIzZTZlIiwiZXhwaXJlIjoxNjI4Njk3NTk5LCJleHAiOjE2MjAzNzI1MTB9.454MKbW3dpPXQrOneLiU4YxOH8m1zWnlsWmbFnQzsk0"
-
+# token ="eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyODcxIiwic3ViIjoiMTU1MjMzIiwiaWF0IjoxNjIwMjg2MTEwLCJyb2xlcyI6WyLnrqHnkIblkZjnlKjmiLciXSwiYXV0aG9yaXRpZXMiOltdLCJob3N0Ijoid3d3LnljemNqay5jb206ODAiLCJ1dWlkIjoiNmYwOTMwZDYtYWI5Yi00NjU3LWFmNmUtZjJkN2MwMDIzZTZlIiwiZXhwaXJlIjoxNjI4Njk3NTk5LCJleHAiOjE2MjAzNzI1MTB9.454MKbW3dpPXQrOneLiU4YxOH8m1zWnlsWmbFnQzsk0"
+token = TOKEN
 # params = {}
 # params["token"] = token
 # val["params"] = str(params)
 
-val["params"]["token"] = token
-print(val)
+# val["params"]["token"] = token
+# print(val)
 # res = send_request.HttpClient().request("https://www.yczcjk.com", val)
 # res = requests.get("https://www.yczcjk.com/yc/monitor/court/subrogation/list-count", val).text
+
+# data = {
+# "mobile": "90909090909",
+# "name": "9090",
+# "passwd": "999999"
+# }
+# jsondata = {
+# 	"Host": "172.18.255.8:8601",
+# 	"Content-Length": "75",
+# 	"Content-Type": "application/json;charset=UTF-8",
+# 	"Cookie": " versionUpdate=false; firstLogin=false; userName=15990184842; token=eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMTIxIiwic3ViIjoiMTU5OTAxODQ4NDIiLCJpYXQiOjE2MjEzMzA4MDQsInJvbGVzIjpbIueuoeeQhuWRmOeUqOaItyJdLCJhdXRob3JpdGllcyI6W10sImhvc3QiOiIxNzIuMTguMjU1Ljg6ODAiLCJ1dWlkIjoiMTE0ZTNhOTMtYWQ0NS00ZTRiLWE2NzYtMjZmNjU2M2Q2ZjE3IiwiZXhwaXJlIjoxNjI2MzY0Nzk5LCJleHAiOjE2MjE0MTcyMDR9.kUgUHYAMrn_VfvwTnulFIx_trrtMmTEpOUNZo0lH790; SESSION=NjUxNmIwOWMtZmYzNi00ODBkLWI0NTMtNzViY2E4ZTNmNGMy"
+# }
+#
+# req = requests.post("http://172.18.255.8:8601/api/asset/admin/check/userCreate", data=data, json=jsondata).json()
+# print(req)
+
 # print(res)
 
 # data1 = ["1a", "2b", "3c"]
@@ -85,3 +102,38 @@ print(val)
 # # 运行并生成测试报告
 # run = BeautifulReport(suite)
 # run.report(filename="测试报告bb", description="测试demo")
+
+
+import requests
+import json
+
+url = 'http://172.18.255.8:8601/api/asset/admin/check/userCreate'
+headers = {
+    'Content-Type': 'application/json;charset=UTF-8'
+}
+c = 'versionUpdate=false; firstLogin=false; userName=15990184842; token=eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMTIxIiwic3ViIjoiMTU5OTAxODQ4NDIiLCJpYXQiOjE2MjEzMzA4MDQsInJvbGVzIjpbIueuoeeQhuWRmOeUqOaItyJdLCJhdXRob3JpdGllcyI6W10sImhvc3QiOiIxNzIuMTguMjU1Ljg6ODAiLCJ1dWlkIjoiMTE0ZTNhOTMtYWQ0NS00ZTRiLWE2NzYtMjZmNjU2M2Q2ZjE3IiwiZXhwaXJlIjoxNjI2MzY0Nzk5LCJleHAiOjE2MjE0MTcyMDR9.kUgUHYAMrn_VfvwTnulFIx_trrtMmTEpOUNZo0lH790; SESSION=YmZmZGE4NDUtMjYwMy00OWM3LWI1ZWQtOWU3NDY2ZjhkYjcz'
+cookies = {x.split('=')[0]: x.split('=')[1] for x in c.split('; ')}
+post_data = {"name": "77", "mobile": "77777777777", "password": "kQFWwuzagMsrtuv4KexJ6g=="}
+response = requests.post(url, headers=headers, data=json.dumps(post_data), cookies=cookies).json()
+print(response)
+
+# import requests
+#
+# url = "http://172.18.255.8:8601/api/asset/admin/check/userCreate"
+#
+# payload="{\"name\":\"77\",\"mobile\":\"77777777777\",\"password\":\"kQFWwuzagMsrtuv4KexJ6g==\"}"
+# headers = {
+#   'Proxy-Connection': 'keep-alive',
+#   'Pragma': 'no-cache',
+#   'Cache-Control': 'no-cache',
+#   'Accept': 'application/json, text/plain, */*',
+#   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+#   'Content-Type': 'application/json;charset=UTF-8',
+#   'Origin': 'http://172.18.255.8:8601',
+#   'Accept-Language': 'zh-CN,zh;q=0.9',
+#   'Cookie': 'versionUpdate=false; firstLogin=false; userName=15990184842; token=eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMTIxIiwic3ViIjoiMTU5OTAxODQ4NDIiLCJpYXQiOjE2MjEzMzA4MDQsInJvbGVzIjpbIueuoeeQhuWRmOeUqOaItyJdLCJhdXRob3JpdGllcyI6W10sImhvc3QiOiIxNzIuMTguMjU1Ljg6ODAiLCJ1dWlkIjoiMTE0ZTNhOTMtYWQ0NS00ZTRiLWE2NzYtMjZmNjU2M2Q2ZjE3IiwiZXhwaXJlIjoxNjI2MzY0Nzk5LCJleHAiOjE2MjE0MTcyMDR9.kUgUHYAMrn_VfvwTnulFIx_trrtMmTEpOUNZo0lH790; SESSION=NjUxNmIwOWMtZmYzNi00ODBkLWI0NTMtNzViY2E4ZTNmNGMy'
+# }
+#
+# response = requests.request("POST", url, headers=headers, data=payload)
+#
+# print(response.text)

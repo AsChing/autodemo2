@@ -1,2 +1,94 @@
-2021-05-17 10:38:05,179 - D:\pyworkspace\autodemo\util\write_excel.py[line:65] - INFO: ----------------write_2行流程接口结果成功--------------
-2021-05-17 10:38:05,181 - D:\pyworkspace\autodemo\demo\demo1.py[line:79] - INFO: 流程 --------- 用例用例1测试不通过，流程类接口终止测试~~~~~
+2021-05-20 16:57:23,654 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-20 16:57:24,061 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-20 16:57:26,929 - D:\pyworkspace\autodemo\action\runcase.py[line:32] - INFO: ==========================----测试case结束----==========================
+
+2021-05-20 16:57:26,931 - D:\pyworkspace\autodemo\action\runcase.py[line:47] - INFO: -===========================---必须使用@classmethod装饰器, 所有case运行完之后只运行一次--===========================--
+2021-05-20 16:57:38,942 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-20 16:57:39,059 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-20 16:58:44,536 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-20 16:58:44,681 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-20 16:59:27,360 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-20 16:59:27,483 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-20 17:00:09,552 - D:\pyworkspace\autodemo\action\runcase.py[line:32] - INFO: ==========================----测试case结束----==========================
+
+2021-05-20 17:00:10,463 - D:\pyworkspace\autodemo\action\runcase.py[line:47] - INFO: -===========================---必须使用@classmethod装饰器, 所有case运行完之后只运行一次--===========================--
+2021-05-20 17:00:18,363 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-20 17:00:18,494 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-20 17:00:18,553 - D:\pyworkspace\autodemo\action\runcase.py[line:32] - INFO: ==========================----测试case结束----==========================
+
+2021-05-20 17:00:18,553 - D:\pyworkspace\autodemo\action\runcase.py[line:47] - INFO: -===========================---必须使用@classmethod装饰器, 所有case运行完之后只运行一次--===========================--
+2021-05-20 17:00:43,101 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-20 17:00:43,223 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-20 17:02:50,876 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-20 17:02:51,023 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-20 17:03:29,505 - D:\pyworkspace\autodemo\util\send_request.py[line:64] - INFO: --------------------------->post请求<---------------------------
+2021-05-21 10:14:22,317 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-21 10:14:22,671 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-21 10:14:28,431 - D:\pyworkspace\autodemo\action\runcase.py[line:32] - INFO: ==========================----测试case结束----==========================
+
+2021-05-21 10:14:28,433 - D:\pyworkspace\autodemo\action\runcase.py[line:47] - INFO: -===========================---必须使用@classmethod装饰器, 所有case运行完之后只运行一次--===========================--
+2021-05-21 10:14:35,270 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-21 10:14:35,380 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-21 10:18:40,564 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-21 10:18:40,691 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-21 10:19:20,284 - D:\pyworkspace\autodemo\util\send_request.py[line:71] - INFO: --------------------------->post请求<---------------------------
+2021-05-21 10:23:01,595 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-21 10:23:01,719 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-21 10:23:11,982 - D:\pyworkspace\autodemo\util\send_request.py[line:71] - INFO: --------------------------->post请求<---------------------------
+2021-05-21 10:24:18,341 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-21 10:24:18,469 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-21 10:24:23,122 - D:\pyworkspace\autodemo\action\runcase.py[line:32] - INFO: ==========================----测试case结束----==========================
+
+2021-05-21 10:24:23,124 - D:\pyworkspace\autodemo\action\runcase.py[line:47] - INFO: -===========================---必须使用@classmethod装饰器, 所有case运行完之后只运行一次--===========================--
+2021-05-21 10:24:29,307 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-21 10:24:29,436 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-21 10:25:22,919 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-21 10:25:23,052 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-21 10:25:28,949 - D:\pyworkspace\autodemo\util\send_request.py[line:71] - INFO: --------------------------->post请求<---------------------------
+2021-05-21 10:27:05,532 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-21 10:27:05,628 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-21 10:27:05,629 - D:\pyworkspace\autodemo\util\send_request.py[line:71] - INFO: --------------------------->post请求<---------------------------
+2021-05-21 10:27:05,645 - D:\pyworkspace\autodemo\action\runcase.py[line:62] - INFO: =========响应结果中code为：9001
+2021-05-21 10:27:05,645 - D:\pyworkspace\autodemo\action\runcase.py[line:63] - INFO: =========预期结果中code为：200
+2021-05-21 10:27:05,801 - D:\pyworkspace\autodemo\util\write_excel.py[line:54] - INFO: ----------------write_data成功--------------
+2021-05-21 10:27:05,801 - D:\pyworkspace\autodemo\action\runcase.py[line:109] - INFO: 用例addOrgUser执行结果为：False
+2021-05-21 10:27:05,801 - D:\pyworkspace\autodemo\action\runcase.py[line:32] - INFO: ==========================----测试case结束----==========================
+
+2021-05-21 10:27:05,804 - D:\pyworkspace\autodemo\action\runcase.py[line:47] - INFO: -===========================---必须使用@classmethod装饰器, 所有case运行完之后只运行一次--===========================--
+2021-05-21 10:31:45,285 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-21 10:31:45,378 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-21 10:31:45,378 - D:\pyworkspace\autodemo\util\send_request.py[line:71] - INFO: --------------------------->post请求<---------------------------
+2021-05-21 10:31:45,396 - D:\pyworkspace\autodemo\action\runcase.py[line:62] - INFO: =========响应结果中code为：9001
+2021-05-21 10:31:45,396 - D:\pyworkspace\autodemo\action\runcase.py[line:63] - INFO: =========预期结果中code为：200
+2021-05-21 10:31:45,530 - D:\pyworkspace\autodemo\util\write_excel.py[line:54] - INFO: ----------------write_data成功--------------
+2021-05-21 10:31:45,530 - D:\pyworkspace\autodemo\action\runcase.py[line:109] - INFO: 用例addOrgUser执行结果为：False
+2021-05-21 10:31:45,530 - D:\pyworkspace\autodemo\action\runcase.py[line:32] - INFO: ==========================----测试case结束----==========================
+
+2021-05-21 10:31:45,533 - D:\pyworkspace\autodemo\action\runcase.py[line:47] - INFO: -===========================---必须使用@classmethod装饰器, 所有case运行完之后只运行一次--===========================--
+2021-05-21 11:03:04,211 - D:\pyworkspace\autodemo\action\runcase.py[line:36] - INFO: -=============================---必须使用@classmethod装饰器, 所有case运行之前只运行一次--======================--
+2021-05-21 11:03:04,317 - D:\pyworkspace\autodemo\action\runcase.py[line:29] - INFO: ==========================----测试case开始----==========================
+
+2021-05-21 11:03:04,317 - D:\pyworkspace\autodemo\util\send_request.py[line:71] - INFO: --------------------------->post请求<---------------------------
+2021-05-21 11:03:04,352 - D:\pyworkspace\autodemo\action\runcase.py[line:62] - INFO: =========响应结果中code为：9001
+2021-05-21 11:03:04,352 - D:\pyworkspace\autodemo\action\runcase.py[line:63] - INFO: =========预期结果中code为：200
+2021-05-21 11:03:04,491 - D:\pyworkspace\autodemo\util\write_excel.py[line:54] - INFO: ----------------write_data成功--------------
+2021-05-21 11:03:04,491 - D:\pyworkspace\autodemo\action\runcase.py[line:109] - INFO: 用例addOrgUser执行结果为：False
+2021-05-21 11:03:04,492 - D:\pyworkspace\autodemo\action\runcase.py[line:32] - INFO: ==========================----测试case结束----==========================
+
+2021-05-21 11:03:04,493 - D:\pyworkspace\autodemo\action\runcase.py[line:47] - INFO: -===========================---必须使用@classmethod装饰器, 所有case运行完之后只运行一次--===========================--

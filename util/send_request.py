@@ -9,6 +9,7 @@
 import requests
 import json
 from log import my_log
+from autodemo.config.public_data import HEADERS
 
 
 class HttpClient(object):
@@ -26,12 +27,16 @@ class HttpClient(object):
             if apiData["params"] == "":
                 params = None
             else:
-                params = eval(apiData["params"])
+                params = apiData["params"]
             # 请求头
             if apiData["headers"] == "":
-                header = None
+                header = HEADERS
             else:
                 header = eval(apiData["headers"])
+            if apiData["cookies"] == "":
+                cookies = None
+            else:
+                cookies = {x.split('=')[0]: x.split('=')[1] for x in apiData["cookies"].split('; ')}
             # 请求体
             if apiData["body"] == "":
                 body_data = None
@@ -40,15 +45,18 @@ class HttpClient(object):
             if method == "post":
                 # 请求体类型 data/json/url
                 type1 = apiData["type"]
-                if type1 == "data":
+                if type1.lower() == "data":
                     response = self.__post(url=url, data=json.dumps(body_data), headers=header, **kwargs)
                     return response
-                elif type1 == "json":
+                elif type1.lower() == "json":
                     response = self.__post(url=url, data=json.dumps(body_data), params=params, headers=header, **kwargs)
+                    return response
+                elif type1.lower() == "cookie":
+                    response = self.__post(url=url, data=json.dumps(body_data), headers=header, cookies=cookies, **kwargs)
                     return response
                 else:
                     self.logger.warning("---------------------------------请求格式{0}不支持----------------------------------".format(type1))
-            elif method == "get":
+            elif method.lower() == "get":
                 # print(params)
                 # params = "token=eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyODcxIiwic3ViIjoiMTU1MjMzIiwiaWF0IjoxNjIwMjg2MTEwLCJyb2xlcyI6WyLnrqHnkIblkZjnlKjmiLciXSwiYXV0aG9yaXRpZXMiOltdLCJob3N0Ijoid3d3LnljemNqay5jb206ODAiLCJ1dWlkIjoiNmYwOTMwZDYtYWI5Yi00NjU3LWFmNmUtZjJkN2MwMDIzZTZlIiwiZXhwaXJlIjoxNjI4Njk3NTk5LCJleHAiOjE2MjAzNzI1MTB9.454MKbW3dpPXQrOneLiU4YxOH8m1zWnlsWmbFnQzsk0"
                 # print(params)
@@ -59,9 +67,9 @@ class HttpClient(object):
         except Exception as e:
             self.error_log.error("请求报错了---", e)
 
-    def __post(self, url, data=None, params=None, header=None, **kwargs):
+    def __post(self, url, data=None, params=None, headers=None, cookies=None, **kwargs):
         self.logger.info("--------------------------->{0}<---------------------------".format("post请求"))
-        response = requests.post(url=url, data=data, params=params, headers=header).json()
+        response = requests.post(url, data=data, params=params, headers=headers, cookies=cookies).json()
         return response
 
     def __get(self, url, params=None, **kwargs):

@@ -34,19 +34,19 @@ class WriteExcel(object):
             font_Name = Font(name='宋体', color="ff5d0679", bold=True, size=12)
             align = Alignment(horizontal='center', vertical='center')
             # 获数所在行数
-            L_n = "L" + str(row_n)
-            N_n = "N" + str(row_n)
+            L_n = "P" + str(row_n)
+            N_n = "R" + str(row_n)
             # 写入测试结果
             if result == "PASS":
-                self.ws.cell(row_n, 12, result)
+                self.ws.cell(row_n, 16, result)
                 self.ws[L_n].font = font_GREEN
             if result == "FAIL":
-                self.ws.cell(row_n, 12, result)
+                self.ws.cell(row_n, 16, result)
                 self.ws[L_n].font = font_RED
-            # 写入接口返回code
-            self.ws.cell(row_n, 13, response)
+            # 写入接口返回response
+            self.ws.cell(row_n, 17, response)
             # 写入测试人员名称
-            self.ws.cell(row_n, 14, self.name)
+            self.ws.cell(row_n, 18, self.name)
             self.ws[L_n].alignment = align
             self.ws[N_n].font = font_Name
             self.ws[N_n].alignment = align

@@ -17,7 +17,7 @@ from log import my_log
 @ddt.ddt
 class RunTest(unittest.TestCase):
     logger = my_log.Logger('../log/log/all.log', level='debug').logger
-    select_data = read_excel.ReadExcel(FILE_PATH, u"查询").read_data()
+    select_data = read_excel.ReadExcel(FILE_PATH, u"Sheet2").read_data()
     # add_data = read_excel.ReadExcel(FILE_PATH, u"新增").read_data()
     # update_data = read_excel.ReadExcel(FILE_PATH, u"修改").read_data()
     # delete_data = read_excel.ReadExcel(FILE_PATH, u"删除").read_data()
@@ -53,10 +53,11 @@ class RunTest(unittest.TestCase):
             self.logger.warning("================没有查询到数据================")
         else:
             # 参数params设置，没有其他参数则只放入token
-            if data["params"] == "":
-                data["params"] = str("token=" + TOKEN)
-            else:
-                data["params"] = str(data["params"] + "&token=" + TOKEN)
+            if data["type"].lower() != "cookie":
+                if data["params"] == "":
+                    data["params"] = str("token=" + TOKEN)
+                else:
+                    data["params"] = str(data["params"] + "&token=" + TOKEN)
             res = send_request.HttpClient().my_request(self.ip, data)
             self.logger.info("=========响应结果中code为：" + str(res["code"]))
             self.logger.info("=========预期结果中code为：" + str(int(data["pre"])))
@@ -74,7 +75,7 @@ class RunTest(unittest.TestCase):
                     if pre_value != '':
                         self.logger.info("=========数据库查询结果中为：" + str(sql_result[0][0]))
                         self.logger.info("=========预期数据库查询结果为：" + str(pre_value))
-                        write_excel.WriteExcel(REPORT_FILE_PATH, "test1").write_data(data['row'], result, str(res))
+                        write_excel.WriteExcel(REPORT_FILE_PATH, "Sheet2").write_data(data['row'], result, str(res))
                         self.assertEqual(str(sql_result[0][0]), str(pre_value),  "查询 --------- 用例{0}测试不通过，与预期返回结果总量不一致".format(data["casenum"]))
                     # 如果field字段有值，进行响应结果字段校验
                     if field != '':
@@ -89,7 +90,7 @@ class RunTest(unittest.TestCase):
                                 result = "FAIL"
                             self.logger.info("响应结果中为：" + str(tuple1))
                             self.logger.info("预期结果中为：" + str(sql_result[0]))
-                            write_excel.WriteExcel(REPORT_FILE_PATH, "test1").write_data(data['row'], result, str(res))
+                            write_excel.WriteExcel(REPORT_FILE_PATH, "Sheet2").write_data(data['row'], result, str(res))
                             self.assertEqual(str(sql_result[0]), str(tuple1), "查询 --------- 用例{0}测试不通过，与预期返回结果总量不一致".format(data["casenum"]))
                         else:
                             # eval执行field得到实际结果
@@ -98,13 +99,13 @@ class RunTest(unittest.TestCase):
                             if str(sql_result[0][0]) != actual_res:
                                 result = "FAIL"
                             self.logger.info("=======响应结果中为：" + actual_res)
-                            write_excel.WriteExcel(REPORT_FILE_PATH, "test1").write_data(data['row'], result, str(res))
+                            write_excel.WriteExcel(REPORT_FILE_PATH, "Sheet2").write_data(data['row'], result, str(res))
                             self.logger.info("=======预期结果中为：" + str(sql_result[0][0]))
                             self.assertEqual(str(sql_result[0][0]), actual_res, "查询 --------- 用例{0}测试不通过，与预期返回结果总量不一致".format(data["casenum"]))
             else:
                 result = "FAIL"
                 # 无sql语句则直接断言code，结束
-                write_excel.WriteExcel(REPORT_FILE_PATH, "test1").write_data(data['row'], result, str(res))
+                write_excel.WriteExcel(REPORT_FILE_PATH, "Sheet2").write_data(data['row'], result, str(res))
                 self.logger.info("用例" + str(data["casenum"]) + "执行结果为：" + str(res["code"] == int(data["pre"])))
                 self.assertEqual(res["code"], int(data["pre"]), "用例{0}测试不通过,与预期返回code不一致".format(data["casenum"]))
 
